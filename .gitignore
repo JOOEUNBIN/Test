@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/windows,java,eclipse
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,eclipse
 
@@ -11,8 +10,8 @@ tmp/
 *.swp
 *~.nib
 local.properties
-#.settings/
-#.classpath
+.settings/
+.classpath
 .loadpath
 .recommenders
 
@@ -63,7 +62,7 @@ local.properties
 
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
-#.project
+.project
 
 ### Eclipse Patch ###
 # Spring Boot Tooling
@@ -121,3 +120,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,java,eclipse
+/pom.xml
+/target/
+pom.properties
